@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5393bbf-5ddc-4425-846a-6446a2d754c7" name="Changes" comment="Added filter and search.">
-      <change afterPath="$PROJECT_DIR$/mysite/templates/admin/base_site.html" afterDir="false" />
+    <list default="true" id="f5393bbf-5ddc-4425-846a-6446a2d754c7" name="Changes" comment="added django debug toolbar">
+      <change afterPath="$PROJECT_DIR$/mysite/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,8 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Divyansh's laptop/PycharmProjects/AI/PollsSUTT/mysite/templates/admin"
+    "last_opened_file_path": "C:/Users/Divyansh's laptop/PycharmProjects/AI/PollsSUTT/mysite/templates/admin",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -150,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795509966257</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added django debug toolbar">
+      <option name="closed" value="true" />
+      <created>1795523312621</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1795523312621</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +171,8 @@
     <MESSAGE value="added a test for future questiosn." />
     <MESSAGE value="Added background image" />
     <MESSAGE value="Added filter and search." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added filter and search." />
+    <MESSAGE value="added django debug toolbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="added django debug toolbar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
