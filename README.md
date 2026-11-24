@@ -90,7 +90,7 @@ that ID to find my session and see which user is logged in.
 ### In Django, how does a request travel through URLs, views, models and templates before a response comes back?
 
 When I open `/polls/1/`, the request passes through Django’s middleware and reaches the URL patterns.
-In `mysite/urls.py`, Django matches `polls/` and sends the remaining `1/` to `polls/urls.py`.
+In `mysite/mysite/urls.py`, Django matches `mysite/polls` and sends the remaining `1/` to `mysite/polls/urls.py`.
 There, `1/` matches `<int:pk>/`, so Django calls `DetailView` with `1` as the question’s ID. 
 The view uses the `Question` model to look up that question in the database. If it can’t find it,
 I get a 404. If it finds it, the view gives the question to `detail.html`. 
@@ -104,4 +104,4 @@ The browser might even include my cookies with that request. This is called cros
 or CSRF. Adding `{% csrf_token %}` puts a hidden field in the voting form. When I click Vote, Chrome 
 sends the token along with my choice, and Django checks it before the vote is counted. Another site 
 normally can’t read that token, so if it form sends a request with a missing or invalid token, Django
-rejects it with `403 Forbidden`.### Why did the tutorial add {% csrf_token %} to the voting form?
+rejects it with `403 Forbidden`.
