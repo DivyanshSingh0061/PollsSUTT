@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5393bbf-5ddc-4425-846a-6446a2d754c7" name="Changes" comment="Added index.html">
-      <change afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/index.html" afterDir="false" />
+    <list default="true" id="f5393bbf-5ddc-4425-846a-6446a2d754c7" name="Changes" comment="Added vote view and a results page">
       <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
     </list>
@@ -112,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795505481909</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added vote view and a results page">
+      <option name="closed" value="true" />
+      <created>1795506182287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1795506182287</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +127,8 @@
     <MESSAGE value="Added polls app with an index view" />
     <MESSAGE value="Created admin and gave it access to creating questions" />
     <MESSAGE value="Added index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added index.html" />
+    <MESSAGE value="Added vote view and a results page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added vote view and a results page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
