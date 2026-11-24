@@ -103,5 +103,5 @@ Another website could try to get my browser to submit a vote that I never chose.
 The browser might even include my cookies with that request. This is called cross-site request forgery,
 or CSRF. Adding `{% csrf_token %}` puts a hidden field in the voting form. When I click Vote, Chrome 
 sends the token along with my choice, and Django checks it before the vote is counted. Another site 
-normally can’t read that token, so if its form sends a request with a missing or invalid token, Django
+normally can’t read that token, so if it form sends a request with a missing or invalid token, Django
 rejects it with `403 Forbidden`.### Why did the tutorial add {% csrf_token %} to the voting form?
